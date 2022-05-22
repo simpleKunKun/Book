@@ -1,0 +1,23 @@
+.borrowWindow{
+    display: none;
+    margin:20px auto;
+    width:400px;
+    padding:20px;
+    border:1px solid steelblue;
+    background-color: white;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+}
+.borrowWindow div{
+    height:32px;
+    margin:10px auto;
+    padding-bottom: 10px;
+    line-height: 32px;
+}
+.borrowWindow div span{
+    display: inline-block;
+    width: 100px;
+}
+
